@@ -20,16 +20,17 @@ body{
 .collapse{
 }
 
-.image{
-    border-color: black;
-    border-width: 4px;
-}
+
 
 .card {
-    image{
-        border-color:black;
-        border-width: 4px;
+    img:sizes;
+    img{
+        width:23rem;
+        height:20rem;
+        text-align:center;
     }
+    height: 35rem;
+    width: 23.3rem;
     marin-top: 30px;
     background-color:rgb(255,155,155);
     border-width:3px;
@@ -49,6 +50,7 @@ body{
         color:black;
     }
     a{
+        
         background-color:rgb(33,33,33);
         border-color:white;
         --bs-btn-hover-bg:rgb(55,55,55);
