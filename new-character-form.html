@@ -36,3 +36,83 @@
     </div>
   </div>
 </nav>
+
+
+<div class="page-header border-bottom">
+        <h1> Add a New ASOIAF Character </h1>
+        </div>
+        <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="card charform mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Character Form</h5>
+                            <form id="characterForm">
+                                <div class="mb-3">
+                                    <label for="characterName" class="form-label"><strong>Character Name
+                                            *</strong></label>
+                                    <input type="text" id="characterName" name="name" placeholder="eg., Lem Lemoncloak" required="" class="form-control">
+                                    <small class="form-text text-muted">The name of the character</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="role" class="form-label"><strong>House *</strong></label>
+                                    <select id="role" name="role" required="" class="form-select">
+                                        <option value="">-- Select a house --</option>
+                                        <option value="Targaryen">Targaryen</option>
+                                        <option value="Stark">Stark</option>
+                                        <option value="Lannister">Lannister</option>
+                                        <option value="Greyjoy">Greyjoy</option>
+                                        <option value="Baratheon">Baratheon</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <small class="form-text text-muted">What house does this character belong to?</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="category" class="form-label"><strong>Allegiance
+                                            *</strong></label>
+                                    <select id="category" name="category" required="" class="form-select">
+                                        <option value="">-- Select an allegiance --</option>
+                                        <option value="Robb">Robb</option>
+                                        <option value="Joffrey">Joffrey</option>
+                                        <option value="Stannis">Stannis</option>
+                                        <option value="Balon">Balon</option>
+                                        <option value="Renly">Renly</option>
+                                    </select>
+                                    <small class="form-text text-muted">What specialty or ability best describes this
+                                        character?</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="imageUrl" class="form-label"><strong>Image URL *</strong></label>
+                                    <input type="url" id="imageUrl" name="imageUrl" placeholder="https://example.com/lemoncloak.jpg" required="" class="form-control">
+                                    <small class="form-text text-muted">Link to a character image (must be a valid
+                                        URL)</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="shortDescription" class="form-label"><strong>Short Description
+                                            *</strong></label>
+                                    <textarea id="shortDescription" name="shortDescription" placeholder="Describe the character in 1-2 sentences..." rows="3" required="" class="form-control"></textarea>
+                                    <small class="form-text text-muted">A brief summary of the character (100-200
+                                        characters)</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="category" class="form-label"><strong>Is (s)he a knight?
+                                            *</strong></label>
+                                    <select id="category" name="category" required="" class="form-select">
+                                        <option value="No">No</option>
+                                        <option value="Yes">Yes</option>
+                                    </select>
+
+                                <div class="d-grid mt-3 gap-2 d-sm-flex justify-content-sm-start">
+                                    <button type="submit" class="btn btn-danger">Add Character</button>
+                                    <a href="index.html" class="btn btn-outline-secondary">Cancel</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
